@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ShopMax &mdash; Colorlib e-Commerce Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="author" content="Milan Dobrosavljevic">
+
+    <meta name="keyword" content="shop, shoes, men, women, sale">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+    
+
+    <div class="site-navbar bg-white py-2">
+
+      <div class="search-wrap">
+        <div class="container">
+          <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
+          <form action="#" method="post">
+            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+          </form>  
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <div class="site-logo">
+              <a href="index.html" class="js-logo-clone">ShopMax</a>
+            </div>
+          </div>
+          <div class="main-nav d-none d-lg-block">
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+              </ul>
+            </nav>
+          </div>
+          <div class="icons">
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="custom-border-bottom py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Shop</strong></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section">
+      <div class="container">
+
+        <div class="row mb-5">
+          <div class="col-md-9 order-1">
+
+            <div class="row align">
+              <div class="col-md-12 mb-5">
+                <div class="float-md-left"><h2 class="text-black h5">Shop All</h2></div>
+                <div class="d-flex">
+                  <div class="dropdown mr-1 ml-md-auto">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                      <a class="dropdown-item" href="#">Men</a>
+                      <a class="dropdown-item" href="#">Women</a>
+                      <a class="dropdown-item" href="#">Children</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5 proizvodi">
+
+            </div>
+          </div>
+
+          <div class="col-md-3 order-2 mb-5 mb-md-0">
+            <div class="border p-4 rounded mb-4">
+              <h3 class="mb-3 h6 text-uppercase text-black d-block">Categories</h3>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-1"><a href="men.html" class="d-flex"><span>Men</span> <span class="text-black ml-auto">(9)</span></a></li>
+                <li class="mb-1"><a href="women.html" class="d-flex"><span>Women</span> <span class="text-black ml-auto">(11)</span></a></li>
+                <li class="mb-1"><a href="shoes.html" class="d-flex"><span>Shoes</span> <span class="text-black ml-auto">(5)</span></a></li>
+              </ul>
+            </div>
+
+            <div class="border p-4 rounded mb-4">
+              <div class="mb-4">
+                <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Price</h3>
+                <input type="nimber" id="cenaOd"  placeholder="Min price"/>
+                <input type="nimber" id="cenaDo"  class="mt-1"placeholder="Max price"/>
+              </div>
+              <div class="mb-4">
+                <h3 class="mb-3 h6 text-uppercase text-black d-block">Filter by Color</h3>
+                <input type="checkbox" name="color" id="color1" value="red">
+                <label for="color1" href="#" class="color-item align-items-center" >
+                  <span class="bg-danger color d-inline-block rounded-circle mr-2"></span> <span class="text-black">Red</span>
+                </label><br>
+                <input type="checkbox" name="color" id="color2" value="green">
+                <label  for="color2" href="#" class="color-item align-items-center" >
+                  <span class="bg-success color d-inline-block rounded-circle mr-2"></span> <span class="text-black">Green</span>
+                </label><br>
+                <input type="checkbox"  name="color" id="color3" value="black">
+                <label  for="color3" href="#" class="color-item align-items-center" >
+                  <span class="bg-dark color d-inline-block rounded-circle mr-2"></span> <span class="text-black">Black</span>
+                </label>
+              </div>
+              <h3 class="mb-3 h6 text-uppercase text-black d-block">Sort by Price:</h3>
+              <select class="btn btn-white btn-sm dropdown-toggle px-4" id="sortiranje" aria-labelledby="dropdownMenuReference">
+                <option value="1"> Price, cheapest first</option>
+                <option value="2"> Price, expencive first</option>
+              </select>
+              <button type="submit" class="col-md-12" id="potvrdiFilter">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <footer class="site-footer custom-border-top">
+      <div class="container">
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/myJs/shop.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
